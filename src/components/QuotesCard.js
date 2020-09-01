@@ -22,7 +22,7 @@ const LIST_OF_QUOES_URL = 'http://api.quotable.io/quotes'
 export default function QuotesCard() {
     const classes = useStyles()
     const [randQuote, setRandQuote] = useState({
-        quote: 'TOday is victory over yourself of yesterday, today is your victory over lesser men.',
+        quote: 'Today is victory over yourself of yesterday, tomorrow is your victory over lesser men.',
         author: 'Miyamoto Musashi'
     })
     const [allQuotesInfo, setAllQuotesInfo] = useState([])
